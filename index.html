@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emil Ruud | Portefølje</title>
+    <meta
+      name="description"
+      content="Portefølje for Emil Ruud, dataingeniørstudent ved NTNU med erfaring innen fullstack, AI-automasjon og systemutvikling."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Sora:wght@600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#hjem" aria-label="Gå til toppen">
+          <img src="assets/profilbilde.webp" alt="Profilbilde av Emil Ruud" />
+          <span>Emil Ruud</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-label="Åpne meny"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="main-nav" class="main-nav" aria-label="Hovednavigasjon">
+          <ul class="nav-links">
+            <li><a href="#om-meg">Om meg</a></li>
+            <li><a href="#teknologier">Teknologier</a></li>
+            <li><a href="#prosjekter">Prosjekter</a></li>
+            <li><a href="#erfaring">Erfaring</a></li>
+            <li><a href="#utdanning">Utdanning</a></li>
+            <li><a href="#fremover">Videre</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Bytt tema">
+          <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+          <span class="theme-toggle-text">Tema</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="hjem">
+      <section class="hero section" id="intro">
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Om meg</p>
+            <h1>
+              Emil Ruud
+              <span>Dataingeniørstudent og utvikler med erfaring innen fullstack og AI-automasjon</span>
+            </h1>
+            <p class="lead">
+              Jeg er 3. års dataingeniørstudent ved NTNU med erfaring innen fullstack-utvikling,
+              AI-implementering og automatisering. Jeg liker å bygge praktiske løsninger som skaper
+              verdi, og trives med ansvar, samarbeid og komplekse oppgaver.
+            </p>
+            <p class="status-badge">Tiltrer sommerjobb som systemutvikler i Sticos sommeren 2026</p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#prosjekter">Se prosjekter</a>
+              <a class="btn btn-secondary" href="#kontakt">Kontakt meg</a>
+              <a class="btn btn-ghost" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <figure class="hero-visual" id="hero-visual">
+            <img src="assets/frontbilde.jpg" alt="Frontbilde" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section reveal" id="om-meg">
+        <div class="section-head">
+          <p class="eyebrow">Om meg</p>
+          <h2>Teknisk, strukturert og opptatt av løsninger som brukes i praksis</h2>
+        </div>
+        <div class="panel">
+          <p>
+            Jeg er dataingeniørstudent ved NTNU med spesialisering i systemutvikling. Jeg har
+            erfaring med Java, Spring Boot, Vue.js, Python og AI-baserte arbeidsflyter, både fra
+            teamprosjekter og praksisnære leveranser.
+          </p>
+          <p>
+            Jeg trives best når jeg kan kombinere teknologi, struktur og problemløsning for å lage
+            løsninger som faktisk blir tatt i bruk. I prosjekter tar jeg gjerne ansvar, jobber
+            strukturert, lærer raskt og samarbeider tett med andre for å få fremdrift og kvalitet.
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="teknologier">
+        <div class="section-head">
+          <p class="eyebrow">Teknologier og ferdigheter</p>
+          <h2>Ryddig oversikt over verktøy og arbeidsmåter</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Programmeringsspråk</h3>
+            <ul class="chip-list">
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>C++</li>
+              <li>Kotlin</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Backend</h3>
+            <ul class="chip-list">
+              <li>Spring Boot</li>
+              <li>REST API</li>
+              <li>JDBC</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Frontend</h3>
+            <ul class="chip-list">
+              <li>Vue.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Node.js</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Database</h3>
+            <ul class="chip-list">
+              <li>MySQL</li>
+              <li>SQL</li>
+              <li>Notion</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Testing</h3>
+            <ul class="chip-list">
+              <li>JUnit</li>
+              <li>Vitest</li>
+              <li>Cypress</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>DevOps og verktøy</h3>
+            <ul class="chip-list">
+              <li>Git</li>
+              <li>CI/CD</li>
+              <li>Maven</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>n8n</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>AI og automasjon</h3>
+            <ul class="chip-list">
+              <li>OpenAI</li>
+              <li>Perplexity</li>
+              <li>AI-agenter</li>
+              <li>Automatiseringsløsninger</li>
+              <li>Webautomatisering</li>
+              <li>API-integrasjoner</li>
+              <li>Codex</li>
+              <li>Claude Code</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Metodikk</h3>
+            <ul class="chip-list">
+              <li>Smidig utvikling</li>
+              <li>Scrum</li>
+              <li>Git workflow</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="prosjekter">
+        <div class="section-head">
+          <p class="eyebrow">Prosjekter</p>
+          <h2>Utvalgte prosjekter og leveranser</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-head">
+              <h3>AI-automasjon for T:lab</h3>
+              <span class="project-tag">Hovedprosjekt</span>
+            </div>
+            <p class="project-summary">
+              Bygget automasjonsflyter i self-hosted n8n for å validere leads og vurdere hvilke selskaper som
+              passer for EIC Accelerator og andre EU-finansieringsprogrammer. 
+              Sitat fra sjefen: "Sammen med vår nye praktikant Emil har vi hatt svært god fremgang, og vi kan potensielt redusere tidsbruken for å finne kvalifiserte leads med opptil 80 %.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Min rolle:</strong> Frilanser fra september 2025, fast deltid fra februar 2026.</li>
+              <li>
+                <strong>Teknologier:</strong> n8n, Notion, OpenAI, Perplexity, HubSpot,
+                API-integrasjoner, batching, self hosting.
+              </li>
+              <li>
+                <strong>Læring/resultat:</strong> Kombinerte teknisk utvikling med forretningsforståelse,
+                kundedialog og kommersielt oppfølgingsarbeid. Tok initiativ til å kontakte selskaper,
+                fulgte dem opp for mulig sammarbeid. Prosjektet har hatt direkte innvirkning på T:lab sin evne til å identifisere og følge opp potensielle kunder, og har vært en viktig del av min erfaring med AI-automasjon i praksis.
+              </li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/Stockbot.webp" alt="Skjermbilde av StockBot Analyzer" loading="lazy" />
+            </figure>
+            <div class="project-head">
+              <h3>StockBot Analyzer</h3>
+              <a href="https://borsbot1-1.vercel.app/" target="_blank" rel="noreferrer">Åpne prosjekt</a>
+            </div>
+            <p class="project-summary">
+              AI-drevet nyhetsanalyse og sentimentsporing for aksjer, bygget som solo-prosjekt med
+              oppfølging fra Yobr AS.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Min rolle:</strong> Fullt ansvar for utvikling og levering.</li>
+              <li><strong>Teknologier:</strong> Browser Use Cloud, AI-agenter, webautomatisering, Vercel.</li>
+              <li>
+                <strong>Læring/resultat:</strong> Lærte å kombinere AI-agenter med webautomatisering for
+                sanntidsanalyse. Prosjektet bidro direkte til muligheten i T:lab.
+              </li>
+              <li><a href="https://github.com/EmilRuud/Borsbot1.1" target="_blank" rel="noreferrer">Repository</a></li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/krisefikser.webp" alt="Skjermbilde fra Krisefikser-appen" loading="lazy" />
+            </figure>
+            <div class="project-head">
+              <h3>Krisehåndteringsapp for husholdninger</h3>
+            </div>
+            <p class="project-summary">
+              Fullstack teamprosjekt med Spring Boot og Vue.js, med fokus på robust funksjonalitet og
+              brukervennlig arbeidsflyt.
+            </p>
+            <ul class="project-meta">
+              <li>
+                <strong>Min rolle:</strong> Wireframing, brukertesting, frontend, backend-endepunkter,
+                DTO-er, integrasjon og funksjoner for invitasjoner og medlemsforespørsler.
+              </li>
+              <li><strong>Teknologier:</strong> Spring Boot, Vue.js, Java, REST API, MySQL, Scrum, Git.</li>
+              <li>
+                <strong>Læring/resultat:</strong> Dypere erfaring med fullstack, API-design,
+                refaktorering, teamkommunikasjon og smidig utvikling.
+              </li>
+              <li><a href="https://github.com/idatt2106-2025-07/krisefikser-backend" target="_blank" rel="noreferrer">Backend Repository</a></li>
+              <li><a href="https://github.com/idatt2106-2025-07/krisefikser-frontend" target="_blank" rel="noreferrer">Frontend Repository</a></li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/Geomatikk.png" alt="Wireframe fra Geomatikk bacheloroppgave" loading="lazy" />
+            </figure>
+            <div class="project-head">
+              <h3>Bacheloroppgave for Geomatikk (pågående)</h3>
+            </div>
+            <p class="project-summary">
+              Utvikler en webapp som skal effektivisere arbeidshverdagen til feltteknikere.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Min rolle:</strong> Systemutvikling, UI-arbeid og funksjonell flyt.</li>
+              <li><strong>Teknologier:</strong> Webutvikling, kartvisning, wireframing.</li>
+              <li>
+                <strong>Læring/resultat:</strong> Forankring i reelle brukerbehov og arbeidsprosesser
+                i felt.
+              </li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/secondGo.webp" alt="Skjermbilde fra SecondGo-prosjektet" loading="lazy" />
+            </figure>
+            <div class="project-head">
+              <h3>SecondGo</h3>
+            </div>
+            <p class="project-summary">
+              Prototype av markedsplassgrensesnitt med produktoversikt, kortvisning og tydelig
+              navigasjon.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Min rolle:</strong> Bidro i utvikling av brukerflate og flyt.</li>
+              <li><strong>Teknologier:</strong> Frontend, komponentbasert UI, responsivt design.</li>
+              <li>
+                <strong>Læring/resultat:</strong> Erfaring med strukturering av skalerbar produktvisning
+                og enkel brukerreise.
+              </li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Boardgame</h3>
+            </div>
+            <p class="project-summary">
+              Samarbeidsprosjekt hvor vi utviklet digitale versjoner av Snakes and Ladders og Monopoly
+              i Java med GUI.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Min rolle:</strong> Hovedansvar for logikk og GUI til Monopoly.</li>
+              <li><strong>Teknologier:</strong> Java, JavaFX, MVC, Git.</li>
+              <li>
+                <strong>Læring/resultat:</strong> Praktisk erfaring med JavaFX, designprinsipper,
+                branching-strategier og samarbeid i utviklingsteam.
+              </li>
+              <li><a href="https://gitlab.stud.idi.ntnu.no/emilruud/idatt2003-boardgame" target="_blank" rel="noreferrer">Repository</a></li>
+              
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>ChaosGame</h3>
+            </div>
+            <p class="project-summary">
+              JavaFX-applikasjon for visualisering av fraktaler som Sierpinski-triangelet,
+              Julia-transformasjon og Barnsley-bregnen.
+            </p>
+            <ul class="project-meta">
+              <li>
+                <strong>Min rolle:</strong> Utvikling av GUI, parametere, filhåndtering og
+                arkitekturforbedringer.
+              </li>
+              <li><strong>Teknologier:</strong> Java, JavaFX, JUnit, MVC, Observer, Factory, Git.</li>
+              <li>
+                <strong>Læring/resultat:</strong> Erfaring med mønstre, testbarhet, objektorientert
+                design og refaktorering i større kodebase.
+              </li>
+              <li><a href="https://gitlab.stud.idi.ntnu.no/emilruud/idatt2003_gr28-prosjekt" target="_blank" rel="noreferrer">Repository</a></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="erfaring">
+        <div class="section-head">
+          <p class="eyebrow">Erfaring</p>
+          <h2>Kombinerer utvikling, forretningsforståelse, kundedialog og gjennomføring</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item highlight">
+            <h3>T:lab / Yobr AS</h3>
+            <p class="timeline-period">September 2025 - nå (frilanser, så fikk jeg tilbud om fast deltid fra februar 2026)</p>
+            <p>
+              Jobber med AI-automasjon og leadvalidering i n8n, med Notion som database/CRM og
+              integrasjoner mot HubSpot. Har i tillegg tatt initiativ til direkte selskapskontakt og
+              kundedialog.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <h3>Frivillig caseoppgave, Yobr AS</h3>
+            <p class="timeline-period">Sommer 2025</p>
+            <p>Utviklet StockBot Analyzer, et AI-prosjekt for nyhetsanalyse og sentimentsporing.</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Adresseavisen</h3>
+            <p class="timeline-period">06.2025 – 01.2026</p>
+            <p>Kundebehandler med fokus på strukturert oppfølging og god service.</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Studbud AS</h3>
+            <p class="timeline-period">06.2024 – 08.2024</p>
+            <p>Flyttemedarbeider med ansvar for effektivt og pålitelig samarbeid i team.</p>
+          </article>
+          <article class="timeline-item">
+            <h3>IFJOBB AS</h3>
+            <p class="timeline-period">06.2022 – 08.2023</p>
+            <p>Sommerjobb på vaskeri</p>
+          </article>
+          <article class="timeline-item">
+            <h3>Indre Fosen</h3>
+            <p class="timeline-period">06.2019 – 08.2022</p>
+            <p>Vikar på sykehjem</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="utdanning">
+        <div class="section-head">
+          <p class="eyebrow">Utdanning</p>
+          <h2>Faglig bakgrunn</h2>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <h3>NTNU</h3>
+            <p>Bachelor i ingeniørfag, data (2023-2026)</p>
+            <p>Spesialisering i systemutvikling</p>
+            <p>Karaktersnitt: 4.4/5</p>
+          </article>
+          <article class="education-card">
+            <h3>Zedge Summer Camp 2024</h3>
+            <p>Introduksjon til Kubernetes</p>
+          </article>
+          <article class="education-card">
+            <h3>NTNU (tidligere studier)</h3>
+            <p>Master i elektronisk systemdesign og innovasjon (2022-2023)</p>
+          </article>
+          <article class="education-card">
+            <h3>Videregående</h3>
+            <p>Studiespesialisering med realfag</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="fremover">
+        <div class="section-head">
+          <p class="eyebrow">Hva skjer framover</p>
+          <h2>Neste steg i 2026</h2>
+        </div>
+        <div class="panel">
+          <ul class="forward-list">
+            <li>
+              Skriver bacheloroppgave for Geomatikk, hvor vi utvikler en webapp for å effektivisere
+              arbeidshverdagen til feltteknikere.
+            </li>
+            <li>Fullfører bachelorgrad i mai 2026.</li>
+            <li>Skal ha sommerjobb som systemutvikler i Sticos AS sommeren 2026.  Sticos utvikler fagsystemer innen regnskap, personal og økonomi.</li>
+            <li>Flytte til oslo for å fart på it-karrieren</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section reveal" id="kontakt">
+        <div class="section-head">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Ta gjerne kontakt</h2>
+        </div>
+
+        <div class="contact-card">
+          <p class="contact-cta">
+            Ta gjerne kontakt dersom du vil samarbeide, høre mer om prosjektene mine eller diskutere
+            muligheter.
+          </p>
+          <ul class="contact-list">
+            <li><span aria-hidden="true">👤</span><strong>Navn:</strong> Emil Ruud</li>
+            <li><span aria-hidden="true">✉️</span><strong>E-post:</strong> <a href="mailto:kroaemil@gmail.com">kroaemil@gmail.com</a></li>
+            <li><span aria-hidden="true">📞</span><strong>Telefon:</strong> <a href="tel:+4798643621">98643621</a></li>
+            <li>
+              <span aria-hidden="true">🔗</span><strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/emil-ruud-81274a2b1/" target="_blank" rel="noreferrer">linkedin.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Emil Ruud</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
